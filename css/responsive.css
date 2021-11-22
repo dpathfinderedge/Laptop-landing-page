@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 991px) {
+    header {
+        padding: 5px 0;
+    }
+    .navbar a{
+        display: none;
+    }
+    .openbtn {
+        display: block;
+    }
+    .about-section .col-lg-6 {
+        float: none;
+        width: 100%;
+    }
+    .home-content {
+        margin-top: 30px;
+    }
+    .home-section .col-lg-6 {
+        width: 100%;
+    }
+    .features-section .col-lg-4 {
+        width: 50%;
+    }
+    .products-section .carousel-container .product {
+        min-width: 48%;
+    }
+    .newsletter-section .newsletter-form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header .container {
+        padding: 14px 26px;
+    }
+    .home-section .container,
+    .about-section .container,
+    .features-section .container,
+    .products-section .container,
+    .testimonial-section .container,
+    .newsletter-section .container,
+    .contact-section .container,
+    .footer-section .container {
+        padding-left: 26px;
+        padding-right: 26px;
+        overflow: hidden;
+    }
+    .features-section .col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .products-section .carousel-container .product {
+        min-width: 98%;
+    }
+    .testimonial-section .testi-item {
+        width: 100%;
+    }
+    .newsletter-section .newsletter-form .btn span {
+        display: none;
+    }
+    .newsletter-section .newsletter-form .paper {
+        display: block;
+    }
+    .contact-section .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-section .col-lg-6 {
+        width: 100%;
+    }
+    .home-section .home-content h1 {
+      font-size: 45px;
+      line-height: 44px;
+    }
+    .loader1 {
+        top: 100px;
+        right: 30px;
+    }
+    .loader2 {
+        top: 220px;
+    }
+    .loader3 {
+        top: 400px;
+    }
+    .loader4 {
+        top: 410px;
+    }
+    .loader5 {
+        top: 140px;
+        right: 200px;
+    }
+
+    @keyframes spin2 {
+        0% { left: 100px; }
+        100% { left: 150px; }
+    }    
+    .features-section .col-lg-4 {  
+        width: 100%;
+    }
+    .section-title .subtitle {
+        font-size: 32px;
+    }
+    .newsletter-section .newsletter-form,
+    .contact-section .contact-form {
+        width: 100%;
+    }
+    .flex-row {
+        flex-flow: column;
+    }
+    .flex-col {
+        width: 100%;
+    }
+    .flex-left {
+        margin-right: 0;
+    }
+    footer .container {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
