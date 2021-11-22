@@ -76,14 +76,13 @@
       line-height: 44px;
     }
     .loader1 {
-        top: 100px;
         right: 30px;
     }
     .loader2 {
         top: 220px;
     }
     .loader3 {
-        top: 400px;
+        top: 360px;
     }
     .loader4 {
         top: 410px;
